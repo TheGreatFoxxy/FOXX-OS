@@ -1,0 +1,42 @@
+<body>
+<h1 class="header"><center>FOXX OS App Format / App Builder Assister</center></h1>
+<p>FOXX OS uses a half-compressed app format that consists of the following:</p>
+   <ol class="list">
+	<li>Main App file (app.html)</li>
+	<li>App Hub Icon (<appnamehere>.jpg)</li>
+	<li>Browser Icon (favicon.ico)</li>
+	<li>(if using nedia) Any Media used by the app(inside a _media folder)</li>
+   </ol>
+<h2 class="header">Main App File (app.html)</h2>
+<p>The main app file, or <code>app.html</code>, is like a manifest. It is used by the App Hub to open the app.</p>
+<p>The app.html CANNOT contain any languages besides HTML, CSS, JavaScript, or Vue. The OS is not Configured for others than those.</p>
+<p>app.html files can be created by copying any fully-independent app.html files, then modified to create your desired app.</p>
+<p>app.html files CAN contain <code><iframe...></iframe></code> tags to embed other websites. Nothing non-child-friendly, Nothing requiring pay to use, unless allowed by the creator.</p>
+<br>
+<h2 class="header">App Hub Icon (<appnamehere>.jpg)</h2>
+<p>The App must also have a App Icon for use in the App Hub.</p>
+<p>Format:</p>
+   <ul>
+	<li>(appnamehere) is the Apps name</li>
+	<li>.jpg MUST be the file extension</li>
+	<li>The image MUST be 64x64</li>
+   </ul>
+<p>Simple to follow. Its best if you make your own Icon in Paint, or find one then resize it.</p>
+<br>
+<h2 class="header">Browser Icon (favicon.ico)</h2>
+<p>Simple as making an image, then resizing it in paint to 16x16.</p>
+<p>Save as .png, then manually change the file extension to .ico</p>
+<br>
+<h2 class="header">(If using Media) Any media files used by your app inside a _media folder<h2>
+<p>The header is self-explanitory.</p>
+</body>
+<style>
+body {
+ background-color: orange;
+ color: black;
+}
+.header {
+ background-color: black;
+ color: orange;
+}
+</style>
