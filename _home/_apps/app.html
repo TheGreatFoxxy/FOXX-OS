@@ -1,0 +1,32 @@
+<template>
+   <div id="app">
+   </div>
+</template>
+<body>
+   <h1><center>Drag and drop a music file here.</center></h1>
+   <h2><right>Audio files supported are:</right></h2>
+   <ul class="list">
+      <li>.ogg</li>
+      <li>.mp3</li>
+      <li>.mov</li>
+      <li>.wma</li>
+      <li>many more! Check with your browser to see all supported file types</li>
+   </ul>
+   <h3>After dragging and dropping your file will stream through the browser.</h3>
+   <h4>When your finished, just click the back arrow to return to this page!</h4>
+</body>
+<style>
+body {
+ background-color: green;
+ color:black;
+}
+.list {
+ background-color: red;
+ color: black;
+}
+</style>
+<script>
+ noStroke();
+ fill(34, 177, 76);
+ rect(200, 200, 75, 75);
+</script>
